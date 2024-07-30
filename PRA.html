@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="icon"href="favicon.ico?v=1"type="image/x-icon" />
+    <style>
+       body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: burlywood;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.box {
+    background-color: #f0f0f0;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+.small-box {
+    width: calc(25% - 20px);
+    height: calc(25% - 20px);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+.large-box {
+    flex: 1;
+    height: calc(50% - 20px);
+}
+</style>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="box small-box"></div>
+        <div class="box small-box"></div>
+        <div class="box small-box"></div>
+        <div class="box small-box"></div>
+   
+        <div class="box large-box">
+    </div>
+</body>
+</html>

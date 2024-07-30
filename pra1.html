@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link rel="icon" href="favicon.ico?v=1" type="image/x-icon" />
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .reviews {
+            text-align: center;
+            max-width: 900px;
+            margin: auto;
+        }
+        .review-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .review {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: left;
+            border: 1px solid #ddd;
+            margin: 10px; /* Added margin property */
+        }
+        .review h3 {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            margin-top: 0;
+        }
+                
+        .review h3 span {
+            background-color: #536dfe;
+            color: #fff;
+            border-radius: 20%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        .review p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .review .stars {
+            color: #f39c12;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="reviews">
+        <h1>Developers love AppStack</h1>
+        <p>Here's what some of our 5,000+ customers have to say about working with our products.</p>
+        <div class="review-container">
+            <div class="review">
+                <h3><span>B</span>Nikita <br> Head of product</h3>
+                <p>"We are totally amazed with the simplicity and the design of the template. Probably saved us hundreds of hours of development. We are absolutely amazed with the support Bootlab has provided us."</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="review">
+                <h3><span>B</span>Alejandro<br>Back-end Developer</h3>
+                <p>"Everything is so properly set up that any new additions I'd make would feel like a native extension of the theme versus a simple hack. I definitely feel like this will save me hundreds of hours I'd otherwise spend on designing."</p>
+                <div class="stars">★★★★★</div>
+            </div>
+            <div class="review">
+                <h3><span>B</span>Jordi<br>Front-end Developer</h3>
+                <p>"I ran into a problem and contacted support. Within 24 hours, I not only received a response but even an updated version that solved my problem and works like a charm. Fantastic customer service!"</p>
+                <div class="stars">★★★★★</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
